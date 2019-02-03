@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Things to know before cloning :
 
 * Ruby version
 
-* System dependencies
+- 2.5.1
 
-* Configuration
+* Dev dependencies
 
-* Database creation
+  gem 'rails', '~> 5.2.2'
+  gem 'pg', '>= 0.18', '< 2.0'
+  gem 'puma', '~> 3.11'
+  gem 'sass-rails', '~> 5.0'
+  gem 'uglifier', '>= 1.3.0'
+  gem 'coffee-rails', '~> 4.2'
+  gem 'turbolinks', '~> 5'
+  gem 'jbuilder', '~> 2.5'
+  gem 'bootsnap', '>= 1.1.0'
 
-* Database initialization
+* Test dependencies
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  gem 'capybara', '>= 2.15'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper'
+  gem 'shoulda-matchers', '4.0.0.rc1'
+  gem 'rails-controller-testing'
+  gem "nyan-cat-formatter"

@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, welcome to the Airbnb app with only the models ! This is an exercice where you will learn how to make robust models. 
 
-Things you may want to cover:
+## Database
+There should be four models :
 
-* Ruby version
+- `User`
+- `City`
+- `Listing`
+- `Reservation`
 
-* System dependencies
+## Tests
+Stack for tests include :
 
-* Configuration
+- Rspec
+- Factory_bot
+- nyan-cat-formatter
+- shoulda_matchers
 
-* Database creation
+To run the tests : `$ rspec`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
